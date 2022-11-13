@@ -325,6 +325,7 @@ class Tree
   end
 end
 
+# Create random array
 tree = Tree.new(Array.new(15) { rand(1..100) })
 tree.balanced?
 tree.show_orders

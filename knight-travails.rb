@@ -79,5 +79,7 @@ class GameBoard
   end
 end
 
+# First coordinate [7, 0] is the knight's position on the board.
+# Second coordinate [0, 7] is the target coordinate to move to.
 game_board = GameBoard.new([7, 0],[0, 7])
 game_board.knight_moves
